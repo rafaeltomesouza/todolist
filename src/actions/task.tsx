@@ -4,7 +4,6 @@ export const ADD_TASK = "ADD_TASK";
 export const CHECKED_TASK = "CHECKED_TASK";
 
 export const addTask = (newTask: Task) => {
-  console.log(newTask);
   return { type: ADD_TASK, task: newTask };
 }
 
