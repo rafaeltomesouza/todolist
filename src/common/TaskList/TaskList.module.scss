@@ -1,0 +1,30 @@
+@import '../../styles/core/vars.scss';
+
+.taskcontainer {
+  display: flex;
+  cursor: pointer;
+  height: 19px;
+  padding: 13px;
+  border-bottom: 1px solid $black;
+}
+
+.square {
+  border: 1px solid $black;
+  margin-right: 5px;
+  width: 17px;
+}
+
+.checked {
+  background: url('../../assets/image/correct.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  margin-right: 5px;
+  width: 17px;
+}
+
+span {
+  color: $grey;
+  text-decoration: line-through;
+}

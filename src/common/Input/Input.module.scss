@@ -1,0 +1,18 @@
+@import '../../styles/core/vars.scss';
+
+.format {
+  border-bottom: 1px solid;
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+  color: $black;
+  font-size: 1.3rem;
+  padding: 0.5rem;
+  width: 100%;
+}
+
+input:focus {
+  outline-offset: -4px;
+  background: $light-grey;
+  outline: none;
+}
